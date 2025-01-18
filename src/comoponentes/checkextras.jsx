@@ -7,7 +7,7 @@ const ServiciosAdicionales = ({ setTotalServicios }) => {
 
   const calcularFactura = () => {
     let total = 0;
-    if (desayuno) total += 7.6;
+    if (desayuno) total += 7.5;
     if (wifi) total += 7.5;
     if (piscina) total += 7.5;
     return total;
